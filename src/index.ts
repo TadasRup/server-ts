@@ -17,9 +17,11 @@ app.init = () => {
     // - surasyti pradinius duomenis
     // paleisti serverio logika
     server.init();
+
     // laike pasikartojantys procesai:
-    // - issivalyti/atnaujinti failus/info
-    // backupdarymas
+    // - isivalyti nereikalingus failus/info
+    // - atnaujinti failus/info
+    // - backup darymas
 }
 
 app.init();
